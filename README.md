@@ -1,9 +1,11 @@
 # TODO
+
 * figure out component hierarchy
 * add styling
 
 # Component Hierarchy
-1. App
+
+* App
   * Header
     * *left*
       * David Herszenhaut
@@ -12,15 +14,4 @@
       * R&eacute;sum&eacute;
   * Content
   * Footer
-
-2. Header
-  * *left*
-    * David Herszenhaut
-  * *right*
-    * About
-    * R&eacute;sum&eacute;
-
-3. Content
-
-4. Footer
-  * David Herszenhaut &copy; `currentYear`
+    * David Herszenhaut &copy; `currentYear`
