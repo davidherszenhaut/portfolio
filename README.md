@@ -5,6 +5,11 @@
 # Component Hierarchy
 1. App
   * Header
+    * *left*
+      * David Herszenhaut
+    * *right*
+      * About
+      * R&eacute;sum&eacute;
   * Content
   * Footer
 
