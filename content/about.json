@@ -1,126 +1,14 @@
 {
-  "text": {
-    "title": "David Herszenhaut",
-    "subtitle": "Georgia Tech graduate, Bachelor of Science in Computer Science",
-    "caption": "Hi, my name is David. I am a recent graduate of the Georgia Institute of Technology (B.Sc. in Computer Science). I am currently looking for software engineering position.",
-    "img": "TODO",
-    "email": "david.herszenhaut@gmail.com",
-    "phone": "404.993.7732",
-    "links": {
-      "linkedin": "https://www.linkedin.com/in/davidherszenhaut/",
-      "github": "https://github.com/davidherszenhaut",
-      "facebook": "https://www.facebook.com/david.herszenhaut",
-      "twitter": "https://twitter.com/dherszenhaut"
-    }
-  },
-  "projects": [
-    {
-      "name": "Paintr",
-      "stack": ["java"],
-      "description": "A simple graphics editor built from the ground up using the Swing toolkit for Java. Functionality includes saving and loading multiple canvases, right click gestures, snap-to-grid movement, and canvas switching animations.",
-      "img": "TODO"
-    },
-    {
-      "name": "SmarTrek",
-      "stack": ["react", "python"],
-      "description": "SmarTrek is a web application built for the Summer 2019 ITC Hackathon that helps you pick the safest route to your destination. Supports several routes for each of walking, bicycling, driving, and riding transit.",
-      "links": {
-        "code": "https://github.com/ethanbin/SmarTrek"
-      },
-      "img": "TODO"
-    },
-    {
-      "name": "Dungeon Crawler",
-      "stack": ["unity"],
-      "description": "A basic action role-playing game where you take control of a knight fighing different monsters on your way to treasure.",
-      "img": "TODO"
-    },
-    {
-      "name": "OpenEval",
-      "stack": ["node", "sql", "bootstrap"],
-      "description": "An anonymous survey web application that allows Georgia Tech professors to receive feedback on their teaching.",
-      "links": {
-        "code": "https://github.com/dedding4341/OpenEval/tree/master/Web"
-      },
-      "img": "TODO"
-    },
-    {
-      "name": "Possibility of Precipitation",
-      "stack": ["c"],
-      "description": "A Game Boy Advance game written in C that takes inspiration from the game 'Risk of Rain'.",
-      "img": "TODO"
-    },
-    {
-      "name": "Dota Data",
-      "stack": ["html", "css", "javascript"],
-      "description": "A series of D3.js data visualizations.",
-      "links": {
-        "demo": "https://davidherszenhaut.github.io/dota-data/",
-        "code": "https://github.com/davidherszenhaut/dota-data"
-      },
-      "img": "TODO"
-    },
-    {
-      "name": "PyBot",
-      "stack": ["python", "sql"],
-      "description": "A chat bot for Discord built using the discord.py API wrapper.",
-      "links": {
-        "case study": "TODO"
-      },
-      "img": "TODO"
-    },
-    {
-      "name": "metal_concerts",
-      "stack": ["python"],
-      "description": "A Python script to find interesting metal concerts near me.",
-      "links": {
-        "case study": "TODO",
-        "code": "https://github.com/davidherszenhaut/metal_concerts"
-      },
-      "img": "TODO"
-    },
-    {
-      "name": "Word Clock",
-      "stack": ["html", "css", "javascript"],
-      "description": "A clock that tells time with words.",
-      "links": {
-        "case study": "TODO",
-        "demo": "https://davidherszenhaut.github.io/wordclock/",
-        "code": "https://github.com/davidherszenhaut/wordclock"
-      },
-      "img": "TODO"
-    },
-    {
-      "name": "hex2rgb",
-      "stack": ["html", "css", "javascript"],
-      "description": "A tool to convert a color code from hexadecimal to RGB.",
-      "links": {
-        "case study": "TODO",
-        "demo": "https://davidherszenhaut.github.io/hex2rgb/",
-        "code": "https://github.com/davidherszenhaut/hex2rgb"
-      },
-      "img": "TODO"
-    },
-    {
-      "name": "hexclock",
-      "stack": ["html", "css", "javascript"],
-      "description": "A hexadecimal clock that changes color with each passing second.",
-      "links": {
-        "case study": "TODO",
-        "demo": "https://davidherszenhaut.github.io/hexclock/",
-        "code": "https://github.com/davidherszenhaut/hexclock"
-      },
-      "img": "TODO"
-    },
-    {
-      "name": "Flask Web Application",
-      "stack": ["html", "css", "python"],
-      "description": "A simple website built using the Flask framework.",
-      "links": {
-        "case study": "TODO",
-        "code": "https://github.com/davidherszenhaut/hexclock"
-      },
-      "img": "TODO"
-    }
-  ]
+  "title": "David Herszenhaut",
+  "subtitle": "Georgia Tech graduate and Bachelor of Science in Computer Science",
+  "caption": "Hi, my name is David. I am a recent graduate of the Georgia Institute of Technology (B.Sc. in Computer Science). I am currently looking for software engineering position.",
+  "img": "TODO",
+  "email": "david.herszenhaut@gmail.com",
+  "phone": "404.993.7732",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/davidherszenhaut/",
+    "github": "https://github.com/davidherszenhaut",
+    "facebook": "https://www.facebook.com/david.herszenhaut",
+    "twitter": "https://twitter.com/dherszenhaut"
+  }
 }

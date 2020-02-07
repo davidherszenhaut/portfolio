@@ -1,7 +1,7 @@
 # TODO
 
 - figure out component hierarchy
-- fix json to match component hierarchy
+- move buttons to header (lift state up)
 - add styling
 
 # Component Hierarchy
@@ -9,24 +9,23 @@
 - App
   - Header
     - _left_
-      - David Herszenhaut
+      - logo
     - _right_
       - About
       - R&eacute;sum&eacute;
   - Content
-    - _about_
-      - Hero
-        - title
-        - subtitle
-        - image
-        - caption
-        - contact
-      - Projects
-        - name
-        - stack
-        - description
-        - links
-        - image
+    - _hero_
+      - title
+      - subtitle
+      - image
+      - caption
+      - contact
+    - _projects_
+      - name
+      - stack
+      - description
+      - links
+      - image
     - _r&eacute;sum&eacute;_
       - Contact
         - email
