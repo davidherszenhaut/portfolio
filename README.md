@@ -2,6 +2,7 @@
 
 - figure out component hierarchy
 - move buttons to header (lift state up)
+- double check proptypes
 - add styling
 
 # Component Hierarchy

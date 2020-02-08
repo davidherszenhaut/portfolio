@@ -3,7 +3,6 @@ import PropTypes from "prop-types"
 
 export default class Project extends React.Component {
   render() {
-    console.log(this.props.data)
     const data = this.props.data
     return (
       <div>

@@ -4,10 +4,11 @@ import Header from "../components/Header"
 import Hero from "../components/Hero"
 import Footer from "../components/Footer"
 import Projects from "../components/Projects"
+import Resume from "../components/Resume"
 
 import about from "../../content/about.json"
 import projects from "../../content/projects.json"
-//import resume from "../../content/resume.json"
+import resume from "../../content/resume.json"
 
 export default class App extends React.Component {
   constructor(props) {
@@ -21,7 +22,6 @@ export default class App extends React.Component {
     if (tab !== this.state.tab) {
       this.setState({ tab: tab })
     }
-    // console.log(this.state.tab);
   }
 
   render() {
@@ -34,7 +34,7 @@ export default class App extends React.Component {
           R&eacute;sum&eacute;
         </button>
         {this.state.tab === "projects" ? <Projects data={projects} /> : null}
-        {this.state.tab === "resume" ? <h1>Resume</h1> : null}
+        {this.state.tab === "resume" ? <Resume data={resume} /> : null}
         <Footer />
       </div>
     )

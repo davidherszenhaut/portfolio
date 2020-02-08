@@ -4,12 +4,6 @@ import PropTypes from "prop-types"
 export default class Hero extends React.Component {
   render() {
     const data = this.props.data
-    console.log(data)
-    Object.keys(data.links)
-      .sort()
-      .forEach(function(v) {
-        console.log(v, data.links[v])
-      })
     return (
       <div>
         <h1>{data.title}</h1>
