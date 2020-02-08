@@ -1,16 +1,13 @@
 // @format
 import React from "react"
 import Header from "../components/Header"
+import Hero from "../components/Hero"
 import Footer from "../components/Footer"
 import Projects from "../components/Projects"
 
-//import about from "../../content/about.json"
+import about from "../../content/about.json"
 import projects from "../../content/projects.json"
 //import resume from "../../content/resume.json"
-
-//console.log(about)
-//console.log(projects)
-//console.log(resume)
 
 export default class App extends React.Component {
   constructor(props) {
@@ -24,13 +21,14 @@ export default class App extends React.Component {
     if (tab !== this.state.tab) {
       this.setState({ tab: tab })
     }
-    console.log(this.state.tab)
+    // console.log(this.state.tab);
   }
 
   render() {
     return (
       <div>
         <Header />
+        <Hero data={about} />
         <button onClick={() => this.changeTab("projects")}>Projects</button>
         <button onClick={() => this.changeTab("resume")}>
           R&eacute;sum&eacute;

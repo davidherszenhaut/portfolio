@@ -11,7 +11,7 @@
     - _left_
       - logo
     - _right_
-      - About
+      - Projects
       - R&eacute;sum&eacute;
   - Content
     - _hero_
