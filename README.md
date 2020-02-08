@@ -16,32 +16,38 @@
       - R&eacute;sum&eacute;
   - Content
     - _hero_
-      - title
-      - subtitle
-      - image
-      - caption
-      - contact
+      - left
+        - title
+        - subtitle
+        - caption
+        - contact
+      - right
+        - image
     - _projects_
       - name
-      - stack
+      - left
+        - stack
+      - right
+        - links
       - description
-      - links
       - image
     - _r&eacute;sum&eacute;_
       - Contact
-        - email
-        - phone
-        - linkedin
+        - space between
+          - email
+          - phone
+          - linkedin
       - Education
-        - name
-        - location
-        - date
+        - space between
+          - name
+          - location
+          - date
         - text
       - Experience
-        - title
-        - company
-        - location
-        - date
+        - space between
+          - title
+          - company, location
+          - date
         - text
       - Skills
         - programming languages
@@ -49,9 +55,10 @@
         - tools
         - spoken languages
       - Extracurriculars
-        - name
-        - organization
-        - date
+        - space between
+          - name
+          - organization
+          - date
         - text
       - Coursework
         - cs

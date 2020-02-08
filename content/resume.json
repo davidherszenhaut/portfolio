@@ -102,24 +102,29 @@
     "type": "Extracurriculars",
     "data": [
       {
-        "name": "Cellist, Georgia Tech Symphony Orchestra",
+        "name": "Cellist",
+        "organization": "Georgia Tech Symphony Orchestra",
         "date": "August 2014 - May 2016"
       },
       {
-        "name": "Cellist, Georgia Tech Chamber Orchestra",
+        "name": "Cellist",
+        "organization": "Georgia Tech Chamber Orchestra",
         "date": "August 2015 - May 2016"
       },
       {
-        "name": "Guitarist, Under the Couch Musicians Club",
+        "name": "Guitarist",
+        "organization": "Under the Couch Musicians Club",
         "date": "August 2014 - May 2015"
       },
       {
-        "name": "Secretary, Tri-M Music Honor Society",
+        "name": "Secretary",
+        "organization": "Tri-M Music Honor Society",
         "date": "August 2013 - May 2014",
         "text": "Organized school-wide music-related events to raise awareness about music in the community"
       },
       {
         "name": "Volunteer Tutor",
+        "organization": "Joseph Wheeler High School (Magnet Program)",
         "date": "August 2013 - May 2014",
         "text": "Tutored high school sophomores and juniors in Honors Biology and AP Biology"
       }
