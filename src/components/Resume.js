@@ -11,7 +11,6 @@ import Coursework from "./Coursework"
 export default class Resume extends React.Component {
   render() {
     const data = this.props.data
-    console.log(data)
     const contact = data[0].data
     const education = data[1].data
     const experience = data[2].data

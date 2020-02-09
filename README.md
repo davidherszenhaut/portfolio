@@ -1,9 +1,13 @@
 # TODO
 
-- figure out component hierarchy
-- move buttons to header (lift state up)
-- double check proptypes
-- add styling
+- organization
+  - double check component hierarchy
+  - take screenshots
+- code
+  - move buttons to header (lift state up)
+  - double check proptypes
+  - add styling
+  - double check responsiveness
 
 # Component Hierarchy
 
