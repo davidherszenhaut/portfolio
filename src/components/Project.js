@@ -19,7 +19,7 @@ export default class Project extends React.Component {
                 .map(function(e) {
                   return (
                     <a key={e} href={data.links[e]}>
-                      {e} &nbsp;
+                      {e}
                     </a>
                   )
                 })

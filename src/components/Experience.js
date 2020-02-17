@@ -3,10 +3,29 @@ import PropTypes from "prop-types"
 
 export default class Experience extends React.Component {
   render() {
-    return <p>experience</p>
+    return (
+      <div>
+        <h2>Experience</h2>
+        {this.props.data.map((e, i) => {
+          return (
+            <div key={i}>
+              <p>{e.title}</p>
+              <p>{e.company}</p>
+              <p>{e.place}</p>
+              <p>{e.date}</p>
+              <ul>
+                {e.text.map((t, j) => {
+                  return <li key={j}>{t}</li>
+                })}
+              </ul>
+            </div>
+          )
+        })}
+      </div>
+    )
   }
 }
 
 Experience.propTypes = {
-  data: PropTypes.array
+  data: PropTypes.array,
 }
