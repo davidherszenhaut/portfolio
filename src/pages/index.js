@@ -6,9 +6,11 @@ import Footer from "../components/Footer"
 import Projects from "../components/Projects"
 import Resume from "../components/Resume"
 
-import about from "../../content/about.json"
-import projects from "../../content/projects.json"
-import resume from "../../content/resume.json"
+import about from "../../content/data/about.json"
+import projects from "../../content/data/projects.json"
+import resume from "../../content/data/resume.json"
+
+import "../styles/App.css"
 
 export default class App extends React.Component {
   constructor(props) {
@@ -17,12 +19,6 @@ export default class App extends React.Component {
     this.handleResumeChange = this.handleResumeChange.bind(this)
     this.state = {
       tab: "projects",
-    }
-  }
-
-  changeTab(tab) {
-    if (tab !== this.state.tab) {
-      this.setState({ tab: tab })
     }
   }
 
@@ -41,9 +37,11 @@ export default class App extends React.Component {
           onProjectsChange={this.handleProjectsChange}
           onResumeChange={this.handleResumeChange}
         />
-        <Hero data={about} />
-        {this.state.tab === "projects" ? <Projects data={projects} /> : null}
-        {this.state.tab === "resume" ? <Resume data={resume} /> : null}
+        <div className="contentContainer">
+          <Hero data={about} />
+          {this.state.tab === "projects" ? <Projects data={projects} /> : null}
+          {this.state.tab === "resume" ? <Resume data={resume} /> : null}
+        </div>
         <Footer />
       </div>
     )

@@ -1,13 +1,10 @@
 # TODO
 
-- organization
-  - double check component hierarchy
-  - take screenshots
-- code
-  - move buttons to header (lift state up)
-  - double check proptypes
-  - add styling
-  - double check responsiveness
+- add styling
+- replace initials with logo
+- replace coding language names with logos
+- make favicon
+- check pagespeedinsights and lighthouse
 
 # Component Hierarchy
 

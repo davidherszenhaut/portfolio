@@ -1,0 +1,24 @@
+.heroContainer h1,
+h2 {
+  text-align: center;
+}
+
+.captionImgContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.selfPortrait {
+  border-radius: 50%;
+}
+
+.linkContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
