@@ -13,6 +13,8 @@ import resume from "../../content/resume.json"
 export default class App extends React.Component {
   constructor(props) {
     super(props)
+    this.handleProjectsChange = this.handleProjectsChange.bind(this)
+    this.handleResumeChange = this.handleResumeChange.bind(this)
     this.state = {
       tab: "projects",
     }
@@ -24,15 +26,22 @@ export default class App extends React.Component {
     }
   }
 
+  handleProjectsChange() {
+    this.setState({ tab: "projects" })
+  }
+
+  handleResumeChange() {
+    this.setState({ tab: "resume" })
+  }
+
   render() {
     return (
       <div>
-        <Header />
+        <Header
+          onProjectsChange={this.handleProjectsChange}
+          onResumeChange={this.handleResumeChange}
+        />
         <Hero data={about} />
-        <button onClick={() => this.changeTab("projects")}>Projects</button>
-        <button onClick={() => this.changeTab("resume")}>
-          R&eacute;sum&eacute;
-        </button>
         {this.state.tab === "projects" ? <Projects data={projects} /> : null}
         {this.state.tab === "resume" ? <Resume data={resume} /> : null}
         <Footer />
