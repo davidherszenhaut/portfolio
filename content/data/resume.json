@@ -28,6 +28,13 @@
     "type": "Experience",
     "data": [
       {
+        "title": "Junior Software Developer",
+        "company": "Zuora",
+        "place": "Atlanta, Georgia",
+        "date": "March 2020 - Present",
+        "text": []
+      },
+      {
         "title": "Junior Software Developer Intern",
         "company": "Anodot",
         "place": "Ra'anana, Israel",
