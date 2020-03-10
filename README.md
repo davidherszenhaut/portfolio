@@ -1,8 +1,9 @@
 # TODO
 
-- add styling
+- update caption
+- add styling (responsive image, header wider than page)
 - replace initials with logo
-- replace coding language names with logos
+- replace coding language names with logos (fontawesome)
 - make favicon
 - check pagespeedinsights and lighthouse
 
