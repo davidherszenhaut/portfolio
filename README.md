@@ -1,6 +1,5 @@
 # TODO
 
-- update caption
 - add styling (responsive image, header wider than page)
 - replace initials with logo
 - replace coding language names with logos (fontawesome)
