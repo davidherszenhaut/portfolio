@@ -3,10 +3,9 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
   position: fixed;
   width: 100%;
-  /* box-shadow: 5px 3px 15px 5px #000; */
   border-bottom: 1px solid black;
   top: 0;
   background: #3b4252;
@@ -22,8 +21,15 @@
   padding-right: 50px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 a:hover {
   cursor: pointer;
+}
+
+.activeTab {
+  color: #8fbcbb;
+  border: 1px solid #8fbcbb;
+  padding: 10px;
 }

@@ -19,14 +19,23 @@ export default class Header extends React.Component {
   }
 
   render() {
+    const activeTab = this.props.activeTab
     return (
       <div className="headerContainer">
         <div className="headerLeft">
           <h1>DH</h1>
         </div>
         <div className="headerRight">
-          <a onClick={this.handleProjectsChange}>Projects</a>
-          <a onClick={this.handleResumeChange}>
+          <a
+            className={activeTab && activeTab === "projects" ? "activeTab" : ""}
+            onClick={this.handleProjectsChange}
+          >
+            Projects
+          </a>
+          <a
+            className={activeTab && activeTab === "resume" ? "activeTab" : ""}
+            onClick={this.handleResumeChange}
+          >
             R&eacute;sum&eacute;
           </a>
         </div>
@@ -38,4 +47,5 @@ export default class Header extends React.Component {
 Header.propTypes = {
   onProjectsChange: PropTypes.func,
   onResumeChange: PropTypes.func,
+  activeTab: PropTypes.string,
 }
