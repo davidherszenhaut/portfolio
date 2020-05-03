@@ -1,3 +1,9 @@
+# Updating
+
+1. Clone [portfolio](https://github.com/davidherszenhaut/portfolio) and [davidherszenhaut.github.io](https://github.com/davidherszenhaut/davidherszenhaut.github.io)
+2. Make changes in `portfolio` before copying over to `staging` branch in `davidherszenhaut.github.io`
+3. Run `npm run deploy` to deploy to `master` from `staging` in `davidherszenhaut.github.io`
+
 # Component Hierarchy
 
 - App
