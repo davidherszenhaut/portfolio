@@ -25,10 +25,10 @@ export default class Header extends React.Component {
           <h1>DH</h1>
         </div>
         <div className="headerRight">
-          <button onClick={this.handleProjectsChange}>Projects</button>
-          <button onClick={this.handleResumeChange}>
+          <a onClick={this.handleProjectsChange}>Projects</a>
+          <a onClick={this.handleResumeChange}>
             R&eacute;sum&eacute;
-          </button>
+          </a>
         </div>
       </div>
     )

@@ -5,6 +5,12 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
+  background: #2e3440;
+  color: #d8dee9;
+}
+
+a {
+  color: #a3be8c;
 }
 
 .contentContainer {

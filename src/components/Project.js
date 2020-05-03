@@ -12,19 +12,16 @@ export default class Project extends React.Component {
             return <span key={e}>{e} </span>
           })}
         </p>
-        <p>
-          {data.links
-            ? Object.keys(data.links)
-                .filter(key => data.links[key] !== "TODO")
-                .map(function(e) {
-                  return (
-                    <a key={e} href={data.links[e]}>
-                      {e}
-                    </a>
-                  )
-                })
-            : null}
-        </p>
+        {data.links
+          ? Object.keys(data.links)
+              .filter(key => data.links[key] !== "TODO")
+              .map((e, i) => (
+                <span key={i}>
+                  {i > 0 && " "}
+                  <a href={data.links[e]}>{e}</a>
+                </span>
+              ))
+          : null}
         <p>{data.description}</p>
       </div>
     )

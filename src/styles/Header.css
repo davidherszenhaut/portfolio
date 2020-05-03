@@ -6,7 +6,23 @@
   align-items: center;
   position: fixed;
   width: 100%;
-  box-shadow: 5px 3px 15px 5px #000;
+  /* box-shadow: 5px 3px 15px 5px #000; */
+  border-bottom: 1px solid black;
   top: 0;
-  background: #fff;
+  background: #3b4252;
+}
+
+.headerLeft {
+  padding-left: 50px;
+}
+
+.headerRight {
+  width: 20%;
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+a:hover {
+  cursor: pointer;
 }
