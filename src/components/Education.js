@@ -1,6 +1,8 @@
 import React from "react"
 import PropTypes from "prop-types"
 
+import "../styles/Resume.css"
+
 export default class Education extends React.Component {
   render() {
     return (
@@ -9,12 +11,16 @@ export default class Education extends React.Component {
         {this.props.data.map((e, i) => {
           return (
             <div key={i}>
-              <p>{e.name}</p>
-              <p>{e.place}</p>
-              <p>{e.date}</p>
-              {e.text.map((t, j) => {
-                return <p key={j}>{t}</p>
-              })}
+              <div className="educationHeader">
+                <p>{e.name}</p>
+                <p>{e.place}</p>
+                <p>{e.date}</p>
+              </div>
+              <ul>
+                {e.text.map((t, j) => {
+                  return <li key={j}>{t}</li>
+                })}
+              </ul>
             </div>
           )
         })}

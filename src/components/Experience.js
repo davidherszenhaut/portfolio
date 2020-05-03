@@ -9,10 +9,12 @@ export default class Experience extends React.Component {
         {this.props.data.map((e, i) => {
           return (
             <div key={i}>
-              <p>{e.title}</p>
-              <p>{e.company}</p>
-              <p>{e.place}</p>
-              <p>{e.date}</p>
+              <div className="experienceHeader">
+                <p>{e.title}</p>
+                <p>{e.company}</p>
+                <p>{e.place}</p>
+                <p>{e.date}</p>
+              </div>
               <ul>
                 {e.text.map((t, j) => {
                   return <li key={j}>{t}</li>

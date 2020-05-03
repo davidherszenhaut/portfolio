@@ -9,10 +9,12 @@ export default class Extracurriculars extends React.Component {
         {this.props.data.map((e, i) => {
           return (
             <div key={i}>
-              <p>{e.name}</p>
-              <p>{e.organization}</p>
-              <p>{e.date}</p>
-              {e.text ? <p>{e.text}</p> : null}
+              <div className="extracurricularsHeader">
+                <p>{e.name}</p>
+                <p>{e.organization}</p>
+                <p>{e.date}</p>
+              </div>
+              {e.text ? <li>{e.text}</li> : null}
             </div>
           )
         })}

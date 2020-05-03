@@ -20,10 +20,15 @@ export default class Resume extends React.Component {
     return (
       <div>
         <Contact data={contact} />
+        <hr/>
         <Education data={education} />
+        <hr/>
         <Experience data={experience} />
+        <hr/>
         <Skills data={skills} />
+        <hr/>
         <Extracurriculars data={extracurriculars} />
+        <hr/>
         <Coursework data={coursework} />
       </div>
     )

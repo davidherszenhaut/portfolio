@@ -7,19 +7,25 @@ export default class Coursework extends React.Component {
     return (
       <div>
         <h2>Coursework</h2>
-        <p>Computer Science</p>
+        <p>
+          <b>Computer Science</b>
+        </p>
         <ul>
           {data["cs"].sort().map((e, i) => {
             return <li key={i}>{e}</li>
           })}
         </ul>
-        <p>Mathematics</p>
+        <p>
+          <b>Mathematics</b>
+        </p>
         <ul>
           {data["math"].sort().map((e, i) => {
             return <li key={i}>{e}</li>
           })}
         </ul>
-        <p>Psychology</p>
+        <p>
+          <b>Psychology</b>
+        </p>
         <ul>
           {data["psyc"].sort().map((e, i) => {
             return <li key={i}>{e}</li>
