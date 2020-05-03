@@ -14,3 +14,11 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+@media only screen and (max-width: 900px) {
+  .educationHeader,
+  .experienceHeader,
+  .extracurricularsHeader {
+    flex-direction: column;
+  }
+}
