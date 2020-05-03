@@ -25,7 +25,9 @@ export default class Hero extends React.Component {
             })}
         </div>
         <div className="captionImgContainer">
-          <p>{data.caption}</p>
+          <div className="captionContainer">
+            <p>{data.caption}</p>
+          </div>
           <img
             src={selfPortrait}
             alt="Self Portrait"

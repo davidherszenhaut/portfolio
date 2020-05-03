@@ -4,15 +4,21 @@ h2 {
 }
 
 .captionImgContainer {
+  margin-top: 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+}
+
+.captionContainer {
+  width: 70%;
 }
 
 .selfPortrait {
   border-radius: 2.5%;
+  height: 10em;
 }
 
 .linkContainer {
@@ -21,4 +27,6 @@ h2 {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
+  max-width: 70%;
+  margin: 0 auto;
 }
