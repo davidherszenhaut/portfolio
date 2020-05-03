@@ -1,8 +1,3 @@
-# TODO
-
-- add styling (responsive image, header wider than page)
-- replace coding language names with logos (fontawesome)
-
 # Component Hierarchy
 
 - App
