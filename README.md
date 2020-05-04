@@ -4,6 +4,10 @@
 2. Make changes in `portfolio` before copying over to `staging` branch in `davidherszenhaut.github.io`
 3. Run `npm run deploy` to deploy to `master` from `staging` in `davidherszenhaut.github.io`
 
+# TODO
+
+* double check efficacy of `Updating` instructions
+
 # Component Hierarchy
 
 - App
