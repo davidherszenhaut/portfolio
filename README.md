@@ -6,6 +6,7 @@
 
 # TODO
 
+* add `<title>` and `<meta>` tags
 * double check efficacy of `Updating` instructions
 
 # Component Hierarchy
